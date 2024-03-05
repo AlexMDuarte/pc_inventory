@@ -35,9 +35,9 @@ def create_database():
     conn = sqlite3.connect("computers.db")
     conn.close()
     
+# Function to generate a unique computer ID
 unique_ids = set()
 
-# Function to generate a random computer ID
 def generate_computer_id():
     while True:
         id = random.randint(100000, 999999)
