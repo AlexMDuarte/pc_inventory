@@ -34,10 +34,17 @@ def create_table():
 def create_database():
     conn = sqlite3.connect("computers.db")
     conn.close()
+    
+unique_ids = set()
 
 # Function to generate a random computer ID
 def generate_computer_id():
-    return str(random.randint(1000, 9999))
+    while True:
+        id = random.randint(100000, 999999)
+        if id not in unique_ids:
+            unique_ids.add(id)
+            return id
+        return str(unique_id = generate_computer_id())
 
 # Function to insert data into SQLite database
 def insert_data(computer_id, component, serial_number):

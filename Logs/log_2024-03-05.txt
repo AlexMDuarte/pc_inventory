@@ -228,3 +228,37 @@
 2024-03-05 14:33:22,141 - INFO: Inserted data into database: Computer ID: 4738, Component: Hard Drive, Serial Number: adadada.
 2024-03-05 14:33:22,146 - INFO: Inserted data into database: Computer ID: 4738, Component: Motherboard, Serial Number: adasd
 2024-03-05 14:33:22,147 - INFO: Processed and moved pc123.csv.
+2024-03-05 23:11:32,411 - INFO: Inserted data into database: Computer ID: 8609, Component: CPU, Serial Number: 2424asdasda
+2024-03-05 23:11:32,416 - INFO: Inserted data into database: Computer ID: 8609, Component: RAM, Serial Number: 00000000
+2024-03-05 23:11:32,420 - INFO: Inserted data into database: Computer ID: 8609, Component: Hard Drive, Serial Number: adadad
+2024-03-05 23:11:32,425 - INFO: Inserted data into database: Computer ID: 8609, Component: Hard Drive, Serial Number: adadada.
+2024-03-05 23:11:32,430 - INFO: Inserted data into database: Computer ID: 8609, Component: Motherboard, Serial Number: adasd
+2024-03-05 23:11:32,430 - INFO: Processed and moved 7465-Processed_2024-03-05.csv.
+2024-03-05 23:11:32,438 - INFO: Inserted data into database: Computer ID: 7033, Component: CPU, Serial Number: AMD Ryzen 7 5800X 8-Core Processor             
+2024-03-05 23:11:32,443 - INFO: Inserted data into database: Computer ID: 7033, Component: RAM, Serial Number: F4-3200C14-16GTZ
+2024-03-05 23:11:32,447 - INFO: Inserted data into database: Computer ID: 7033, Component: RAM, Serial Number: F4-3200C14-16GTZ
+2024-03-05 23:11:32,452 - INFO: Inserted data into database: Computer ID: 7033, Component: Hard Drive, Serial Number: 16VB66JUK1BU
+2024-03-05 23:11:32,457 - INFO: Inserted data into database: Computer ID: 7033, Component: Hard Drive, Serial Number: 6479_A72B_E322_3644.
+2024-03-05 23:11:32,461 - INFO: Inserted data into database: Computer ID: 7033, Component: Hard Drive, Serial Number: 46DB33EIK8WU
+2024-03-05 23:11:32,465 - INFO: Inserted data into database: Computer ID: 7033, Component: Motherboard, Serial Number: X570 AORUS PRO
+2024-03-05 23:11:32,470 - INFO: Inserted data into database: Computer ID: 7033, Component: Network Adapter, Serial Number: 18:C0:4D:94:AE:ED
+2024-03-05 23:11:32,474 - INFO: Inserted data into database: Computer ID: 7033, Component: Network Adapter, Serial Number: F8:6F:20:52:41:53
+2024-03-05 23:11:32,478 - INFO: Inserted data into database: Computer ID: 7033, Component: Network Adapter, Serial Number: F8:C1:20:52:41:53
+2024-03-05 23:11:32,482 - INFO: Inserted data into database: Computer ID: 7033, Component: Network Adapter, Serial Number: FA:1F:20:52:41:53
+2024-03-05 23:11:32,487 - INFO: Inserted data into database: Computer ID: 7033, Component: Network Adapter, Serial Number: 00:50:56:C0:00:01
+2024-03-05 23:11:32,491 - INFO: Inserted data into database: Computer ID: 7033, Component: Network Adapter, Serial Number: 00:50:56:C0:00:08
+2024-03-05 23:11:32,491 - INFO: Processed and moved Hardware_Serial_Numbers_20240305_231106.csv.
+2024-03-05 23:11:32,497 - INFO: Inserted data into database: Computer ID: 3425, Component: CPU, Serial Number: AMD Ryzen 7 5800X 8-Core Processor             
+2024-03-05 23:11:32,501 - INFO: Inserted data into database: Computer ID: 3425, Component: RAM, Serial Number: F4-3200C14-16GTZ
+2024-03-05 23:11:32,505 - INFO: Inserted data into database: Computer ID: 3425, Component: RAM, Serial Number: F4-3200C14-16GTZ
+2024-03-05 23:11:32,510 - INFO: Inserted data into database: Computer ID: 3425, Component: Hard Drive, Serial Number: 16VB66JUK1BU
+2024-03-05 23:11:32,514 - INFO: Inserted data into database: Computer ID: 3425, Component: Hard Drive, Serial Number: 6479_A72B_E322_3644.
+2024-03-05 23:11:32,519 - INFO: Inserted data into database: Computer ID: 3425, Component: Hard Drive, Serial Number: 46DB33EIK8WU
+2024-03-05 23:11:32,523 - INFO: Inserted data into database: Computer ID: 3425, Component: Motherboard, Serial Number: X570 AORUS PRO
+2024-03-05 23:11:32,528 - INFO: Inserted data into database: Computer ID: 3425, Component: Network Adapter, Serial Number: 18:C0:4D:94:AE:ED
+2024-03-05 23:11:32,532 - INFO: Inserted data into database: Computer ID: 3425, Component: Network Adapter, Serial Number: F8:6F:20:52:41:53
+2024-03-05 23:11:32,536 - INFO: Inserted data into database: Computer ID: 3425, Component: Network Adapter, Serial Number: F8:C1:20:52:41:53
+2024-03-05 23:11:32,540 - INFO: Inserted data into database: Computer ID: 3425, Component: Network Adapter, Serial Number: FA:1F:20:52:41:53
+2024-03-05 23:11:32,544 - INFO: Inserted data into database: Computer ID: 3425, Component: Network Adapter, Serial Number: 00:50:56:C0:00:01
+2024-03-05 23:11:32,548 - INFO: Inserted data into database: Computer ID: 3425, Component: Network Adapter, Serial Number: 00:50:56:C0:00:08
+2024-03-05 23:11:32,549 - INFO: Processed and moved Hardware_Serial_Numbers_20240305_231111.csv.
