@@ -5,7 +5,6 @@ from tkinter import messagebox
 from tkinter import filedialog
 import csv
 import shutil
-import os
 import subprocess
 
 class ComputerDatabaseApp:
@@ -78,7 +77,7 @@ class ComputerDatabaseApp:
         if file_path:
             with open(file_path, 'w', newline='') as csvfile:
                 csv_writer = csv.writer(csvfile)
-                csv_writer.writerow(["Computer ID", "Component", "Serial Number", "Date Added"])
+                csv_writer.writerow(["Computer ID", "Component", "Serial Number ( ID )", "Date Added"])
                 csv_writer.writerows(result)
             messagebox.showinfo("Export All Entries", "All entries exported successfully.")
 
@@ -141,8 +140,8 @@ class ComputerDatabaseApp:
         tab_last_entries = ttk.Frame(notebook)
         last_entries_label = tk.Label(tab_last_entries, text="Last Entries", font=("Helvetica", 16))
         last_entries_label.pack(pady=10)
-        self.treeview = ttk.Treeview(tab_last_entries, columns=('Computer ID', 'Component', 'Serial Number', 'Date Added'), show='headings')
-        for col in ('Computer ID', 'Component', 'Serial Number', 'Date Added'):
+        self.treeview = ttk.Treeview(tab_last_entries, columns=('Computer ID', 'Component', 'Serial Number ( ID )', 'Date Added'), show='headings')
+        for col in ('Computer ID', 'Component', 'Serial Number ( ID )', 'Date Added'):
             self.treeview.heading(col, text=col)
             self.treeview.column(col, anchor="w")
         self.treeview.pack(expand=1, fill='both')
@@ -159,8 +158,8 @@ class ComputerDatabaseApp:
         self.search_entry.pack(pady=5)
         search_button = tk.Button(tab_search, text="Search", command=self.perform_search)
         search_button.pack(pady=10)
-        self.search_treeview = ttk.Treeview(tab_search, columns=('Computer ID', 'Component', 'Serial Number'), show='headings')
-        for col in ('Computer ID', 'Component', 'Serial Number'):
+        self.search_treeview = ttk.Treeview(tab_search, columns=('Computer ID', 'Component', 'Serial Number ( ID )'), show='headings')
+        for col in ('Computer ID', 'Component', 'Serial Number ( ID )'):
             self.search_treeview.heading(col, text=col)
             self.search_treeview.column(col, anchor="w")
         self.search_treeview.pack(expand=1, fill='both')
@@ -192,8 +191,8 @@ class ComputerDatabaseApp:
 
         # Fetch and display database entries in the treeview
         entries = self.get_last_entries()
-        treeview = ttk.Treeview(edit_window, columns=('Computer ID', 'Component', 'Serial Number', 'Date Added'), show='headings')
-        for col in ('Computer ID', 'Component', 'Serial Number', 'Date Added'):
+        treeview = ttk.Treeview(edit_window, columns=('Computer ID', 'Component', 'Serial Number ( ID )', 'Date Added'), show='headings')
+        for col in ('Computer ID', 'Component', 'Serial Number ( ID )', 'Date Added'):
             treeview.heading(col, text=col)
             treeview.column(col, anchor="w")
         for entry in entries:
