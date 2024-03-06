@@ -13,7 +13,7 @@ This Python script allows you to manage PC inventory by loading data from CSV fi
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/foskasse/pc-inventory-management.git
+   git clone https://github.com/AlexMDuarte/pc_inventory.git
    ```
 
 2. Install dependencies:
